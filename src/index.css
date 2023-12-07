@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+    display: flex;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.react-calendar-heatmap .color-scale-1 {
+    fill: #d6e685;
+}
+.react-calendar-heatmap .color-scale-2 {
+    fill: #8cc665;
+}
+.react-calendar-heatmap .color-scale-3 {
+    fill: #44a340;
+}
+.react-calendar-heatmap .color-scale-4 {
+    fill: #1e6823;
+}
+.react-calendar-heatmap .color-scale-5 {
+    fill: #1e6823;
+}
+.react-calendar-heatmap .color-scale-6 {
+    fill: #1e6823;
+}
+.react-calendar-heatmap .color-scale-7 {
+    fill: #1e6823;
+}
+.react-calendar-heatmap .color-scale-8 {
+    fill: #1e6823;
+}
+.react-calendar-heatmap .color-scale-9 {
+    fill: #1e6823;
+}
+.react-calendar-heatmap .color-scale-10 {
+    fill: #1e6823;
+}
+.react-calendar-heatmap .color-scale-11 {
+    fill: #1e6823;
 }
